@@ -10,7 +10,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
   })
 
-  it.only('Prenche os campos obrigatoriose envia o formulario', function () {
+  it('Prenche os campos obrigatoriose envia o formulario', function () {
     const longText = 'Teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste'
     cy.get('#firstName').type('josep')
     cy.get('#lastName').type('luca')
