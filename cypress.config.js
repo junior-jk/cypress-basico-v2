@@ -6,8 +6,8 @@ module.exports = defineConfig({
     videoUploadOnPasses: false,
     viewportHeight: 880,
     viewportWidth: 1280,
-    viewportHeight: 860,
-    viewportWidth: 410,
+    // viewportHeight: 860,
+    // viewportWidth: 410,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
